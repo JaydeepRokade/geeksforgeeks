@@ -1,7 +1,6 @@
 class Solution {
   public:
-    // Function to find maximum number of consecutive steps
-    // to gain an increase in
+    // Function to find maximum number of consecut
     int maxStep(vector<int>& arr) {
         // Your code herefo
         int ans = 0;
