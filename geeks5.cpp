@@ -1,6 +1,6 @@
 class Solution {
   public:
-    // Function to find maximum number of consecut
+    // Function to find max
     int maxStep(vector<int>& arr) {
         // Your code herefo
         int ans = 0;
