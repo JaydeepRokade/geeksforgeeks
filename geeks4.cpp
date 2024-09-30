@@ -1,6 +1,6 @@
 class Solution {
  boolean isPalindrome(Node head) {
-        // Your code here.....
+        // Your code here..........
         if(head==null||head.next==null) return true;
         Node fast=head.next.next;
         Node slow=head;
