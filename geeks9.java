@@ -1,6 +1,5 @@
 class Solution {
     public long multiplyTwoLists(Node first, Node second) {
-        //
         long ans=0;
         long sum1=0;
         long sum2=0;
