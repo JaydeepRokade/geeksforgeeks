@@ -4,8 +4,6 @@ class Solution {
         long sum1=0;
         long sum2=0;
         long mod=1000000000+7;
-        
-    
         while(first!=null){
             sum1= sum1*10+first.data;
             first=first.next;
