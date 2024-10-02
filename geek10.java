@@ -1,6 +1,5 @@
 class Solution {
     public static int rotateDelete(ArrayList<Integer> arr) {
-        // code
         int del = 0;
         while(arr.size() != 1)
         {
