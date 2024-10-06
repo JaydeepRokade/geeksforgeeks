@@ -24,7 +24,6 @@ class Solution {
         dfs(i-1,j,grid,n,m); // up
         dfs(i,j+1,grid,n,m); // right
         dfs(i,j-1,grid,n,m); // left
-        //diagonals
         dfs(i-1,j-1,grid,n,m); // up->left
         dfs(i-1,j+1,grid,n,m); // up->right
         dfs(i+1,j-1,grid,n,m); // down->left
