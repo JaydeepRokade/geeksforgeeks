@@ -1,6 +1,5 @@
 class Solution {
     public int numIslands(char[][] grid) {
-        // Code here
         int n=grid.length,m=grid[0].length;
         int ans=0;
         for(int i=0;i<n;i++){
