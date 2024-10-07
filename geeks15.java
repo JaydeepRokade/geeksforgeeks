@@ -7,7 +7,6 @@ class Solution {
         return x;
     }
 
-    // function to print the linked list
     static ArrayList<Integer> getList(Node head) {
         // Code Here.
         ArrayList<Integer> l1=new ArrayList<>();
