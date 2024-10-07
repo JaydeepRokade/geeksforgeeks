@@ -1,6 +1,5 @@
 class Solution {
     static Node insert(Node head, int data) {
-        // Code Here.
         Node x=new Node(data);
         x.npx=head;
         return x;
