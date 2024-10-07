@@ -6,7 +6,6 @@ class Solution {
     }
 
     static ArrayList<Integer> getList(Node head) {
-        // Code Here.
         ArrayList<Integer> l1=new ArrayList<>();
         Node x=head;
         while(x!=null){
