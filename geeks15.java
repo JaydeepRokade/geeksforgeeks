@@ -1,5 +1,4 @@
 class Solution {
-    // function should insert the data to the front of the list
     static Node insert(Node head, int data) {
         // Code Here.
         Node x=new Node(data);
