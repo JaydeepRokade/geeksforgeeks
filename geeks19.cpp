@@ -1,7 +1,5 @@
 vector<int> rearrange(const vector<int>& arr) {
-        // Code here
         vector<int> ans(arr.size(),-1);
-        
         
         for(int i=0;i<arr.size();i++){
             
