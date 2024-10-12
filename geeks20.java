@@ -1,6 +1,5 @@
 class Solution {
     public int pairWithMaxSum(int[] arr) {
-        // code here
         int n = arr.length;
         if(n<2){
             return -1;
