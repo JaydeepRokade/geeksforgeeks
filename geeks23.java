@@ -1,5 +1,5 @@
 public void deleteAlt(Node head) {
-        // Code Here
+        // short
         Node temp = head;
         while(temp != null && temp.next != null){
             temp.next = temp.next.next;
