@@ -1,7 +1,6 @@
 class Solution {
   public:
     vector<Node*> alternatingSplitList(struct Node* head) {
-        // Your code here
         Node* head1=head;
         Node* head2=head->next;
         Node*l1=head;
