@@ -1,6 +1,5 @@
 class Solution {
   public:
-    // Function to split a linked list into two lists alternately
     vector<Node*> alternatingSplitList(struct Node* head) {
         // Your code here
         Node* head1=head;
