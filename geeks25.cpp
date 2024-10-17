@@ -5,7 +5,6 @@ class Solution {
         Node* head2=head->next;
         Node*l1=head;
         Node*l2=head->next;
-        
         while(l1 && l2){
             if(l1->next) {
                 l1->next=l1->next->next;
