@@ -1,11 +1,8 @@
 class Solution {
    public:
     string roundToNearest(string str) {
-       
         int n = str.size();
-       
         if (str.back() <= '5') {
-           
             str.back() = '0';
            
         } else {
