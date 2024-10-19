@@ -4,11 +4,8 @@ class Solution {
         int n = str.size();
         if (str.back() <= '5') {
             str.back() = '0';
-           
         } else {
-           
             int carry = 10 - (str.back() - '0');
-           
             for (int i = n - 1; carry and i >= 0; i--) {
                
                 carry += str[i] - '0';
