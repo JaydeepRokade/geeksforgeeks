@@ -2,7 +2,7 @@ class Solution {
 
     public static int countgroup(int arr[]) {
         
-        // Complete the function
+        
         
         int xor = 0;
         int n = arr.length;
