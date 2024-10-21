@@ -1,8 +1,6 @@
 class Solution {
 
     public static int countgroup(int arr[]) {
-        
-        
         int xor = 0;
         int n = arr.length;
         int mod = 1000000007;
