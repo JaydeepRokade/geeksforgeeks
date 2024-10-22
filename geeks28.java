@@ -7,14 +7,12 @@ class Solution {
         int count = 0;
 
         for (int num : arr) {
-            // Update cumulative sum: +1 for x, -1 for y, 0 for others
             if (num == x) {
                 cumulativeSum += 1;
             } else if (num == y) {
                 cumulativeSum -= 1;
             }
 
-            // If this cumulative sum has been seen before, add to count
             if (countMap.containsKey(cumulativeSum)) {
                 count += countMap.get(cumulativeSum);
             }
