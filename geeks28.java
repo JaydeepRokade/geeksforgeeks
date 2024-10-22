@@ -2,7 +2,7 @@ class Solution {
 
     static int sameOccurrence(int arr[], int x, int y) {
         HashMap<Integer, Integer> countMap = new HashMap<>();
-        countMap.put(0, 1); // Initialize with the count of sum 0
+        countMap.put(0, 1); 
         int cumulativeSum = 0;
         int count = 0;
 
