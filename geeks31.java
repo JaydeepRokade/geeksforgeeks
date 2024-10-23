@@ -7,17 +7,12 @@ class Solution {
              temp = temp.next;
              count++;
          }
-        
          for(int i=0;i<=count;i++){
              if(i>count-n){
                  sum=sum+head.data;
              }
-
-
-             
              head = head.next;
          }
-        
          return sum;
     }
 }
