@@ -6,6 +6,7 @@
             head=head->next;
             i++;
         }
+
         DLLNode *temp=new DLLNode(-1);
         DLLNode *prevs=new DLLNode(NULL);
         DLLNode *ans=temp;
@@ -21,4 +22,5 @@
            if(head!=NULL) head=head->next;
             
         }
+
         return ans->next;
