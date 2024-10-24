@@ -10,6 +10,7 @@ class Solution {
                 arr[i+1]=0;
             }
         }
+        
         for(int i=0;i<arr.length;i++)
         {
             if(arr[i]!=0)
@@ -21,6 +22,7 @@ class Solution {
                 cnt++;
             }
         }
+        
         for(int i=0;i<cnt;i++)
         {
             li.add(0);
