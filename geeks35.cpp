@@ -17,8 +17,7 @@ class Solution {
             if(arr[i] !=0){
                 ans.push_back(arr[i]);
             }
-        }
-        
+        } 
         return ans;
         
     }
