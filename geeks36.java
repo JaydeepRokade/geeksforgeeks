@@ -4,25 +4,19 @@ class GfG {
             return head;
         Node[] smaller = new Node[1];
         Node[] greater = new Node[1];
-
         partition(head, smaller, greater);
-
         smaller[0] = quickSort(smaller[0]);
         greater[0] = quickSort(greater[0]);
-
         head.next = greater[0];
         Node temp = smaller[0];
         while (temp != null && temp.next != null)
             temp = temp.next;
-
         if (temp != null)
             temp.next = head;
         else
             smaller[0] = head;
-
         return smaller[0];
     }
-
     private static void partition(Node pivot, Node[] smaller, Node[] greater) {
         Node temp = pivot.next;
         while (temp != null) {
