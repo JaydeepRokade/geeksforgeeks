@@ -2,7 +2,6 @@ class GfG {
     public static Node quickSort(Node head) {
         if (head == null || head.next == null)
             return head;
-
         Node[] smaller = new Node[1];
         Node[] greater = new Node[1];
 
