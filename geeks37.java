@@ -7,6 +7,7 @@ class Solution {
             if(map.containsKey(i-k)){
                 count+=map.get(i-k);
             }
+            
         }
         return count;
     }
