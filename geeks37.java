@@ -6,8 +6,7 @@ class Solution {
         for(int i:arr){
             if(map.containsKey(i-k)){
                 count+=map.get(i-k);
-            }
-            
+            }    
         }
         return count;
     }
