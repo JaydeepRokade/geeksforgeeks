@@ -1,7 +1,6 @@
 class Solution {
   public:
     Node* sortedInsert(Node* head, int x) {
-        // Code here
         Node* newNode = new Node();
         newNode->data = x;
         if(!head){
