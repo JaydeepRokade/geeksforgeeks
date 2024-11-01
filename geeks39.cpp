@@ -1,5 +1,4 @@
  sort(arr.begin() , arr.end()) ;
-        
         int n = arr.size() ;
         long long sum = 0 ;
         for(int i = 0 ; i < n/2 ; i ++){
