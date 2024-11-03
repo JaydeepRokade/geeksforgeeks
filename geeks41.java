@@ -2,8 +2,6 @@ class Solution {
     public boolean isLengthEven(Node head) {
 
         boolean flag = false;
-        
-        //for hidden test case
         if(head.next==null){
             return false;
         }
