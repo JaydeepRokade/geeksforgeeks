@@ -1,6 +1,6 @@
 class Solution {
     public boolean isLengthEven(Node head) {
-        // code here
+    
         
         boolean flag = false;
         
