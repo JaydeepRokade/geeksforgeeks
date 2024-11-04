@@ -2,7 +2,6 @@ class Solution {
   public:
     vector<vector<int>> findTriplets(vector<int> &nums) {
         vector<vector<int>> res;
-        
         for(int i=0;i<nums.size();i++)
         {
             unordered_map<int,unordered_set<int>> mp;
