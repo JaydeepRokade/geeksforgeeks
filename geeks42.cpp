@@ -5,7 +5,6 @@ class Solution {
         for(int i=0;i<nums.size();i++)
         {
             unordered_map<int,unordered_set<int>> mp;
-            
             for(int j=i+1;j<nums.size();j++)
             mp[nums[j]].insert(j);
             
