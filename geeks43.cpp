@@ -1,5 +1,4 @@
 void rotate(vector<vector<int> >& mat) {
-    // Your code goes here
     int n=mat.size();
     //step1: take transpose
     for(int i=0;i<n;i++){
