@@ -15,8 +15,10 @@ class Solution {
     }    
     
     public static int treePathsSum(Node root) {
+        
         res=0;
       Cal(root,0);
       return res;
+        
     }
 }
