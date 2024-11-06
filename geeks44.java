@@ -9,6 +9,7 @@ class Solution {
             res+=(ans*10+root.data);
             return;
         }
+        
         Cal(root.left,ans*10+root.data);
         Cal(root.right,ans*10+root.data);
     }    
