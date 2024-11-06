@@ -13,6 +13,7 @@ class Solution {
         Cal(root.left,ans*10+root.data);
         Cal(root.right,ans*10+root.data);
     }    
+    
     public static int treePathsSum(Node root) {
         res=0;
       Cal(root,0);
