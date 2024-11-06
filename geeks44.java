@@ -4,6 +4,7 @@ class Solution {
     public static void Cal(Node root,int ans){
         
         if(root==null) return;
+        
         if(root.left==null && root.right==null) {
             res+=(ans*10+root.data);
             return;
