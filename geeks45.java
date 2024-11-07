@@ -6,6 +6,7 @@
             list.add(-1);
             return list;
         }
+
         if(sum%3!=0) return Arrays.asList(-1,-1);
         int ans=0;
         for(int i=0;i<arr.length;i++){
