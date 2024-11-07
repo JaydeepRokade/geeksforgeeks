@@ -14,7 +14,6 @@
                 list.add(i);
                 ans=0;
                 if(list.size()==2)return list;
-                // System.out.print(i+" ");
             }
         }
         list.add(-1);
