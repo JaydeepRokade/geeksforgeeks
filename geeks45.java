@@ -17,6 +17,7 @@
                 if(list.size()==2)return list;
             }
         }
+
         list.add(-1);
         list.add(-1);
         return list;
