@@ -7,7 +7,6 @@ class Solution {
             n1+=s1.size();
             s+=s1;
         }
-      
         if(s.find(s2)!=string::npos)return ans;
         ans++;
         s+=s1;
