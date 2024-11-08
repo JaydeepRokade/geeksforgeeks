@@ -1,4 +1,3 @@
-
 class Solution {
   public:
     int minRepeats(string& s1, string& s2) {
