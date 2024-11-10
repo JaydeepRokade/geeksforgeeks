@@ -1,4 +1,3 @@
-
 class Solution {
   public:
     // a,b : the arrays
