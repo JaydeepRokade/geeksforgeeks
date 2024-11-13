@@ -1,9 +1,4 @@
-/* Linked List Node
-struct Node {
-  int 
-    next = NULL;
-  }
-}; */
+
 
 class Solution {
   public:
