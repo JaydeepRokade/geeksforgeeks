@@ -10,6 +10,7 @@
             i++;
             j++;
         }
+
         while(i<n && !pq.empty()){
             arr[i] = pq.top();
             pq.pop();
