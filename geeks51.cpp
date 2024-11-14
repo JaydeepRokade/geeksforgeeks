@@ -1,6 +1,4 @@
-  
-        int n = arr.size();
-        // min-heap
+          int n = arr.size();
         priority_queue<int, vector<int>, greater<int>> pq;
         
         for(int i=0; i<=k-1; i++) pq.push(arr[i]);
