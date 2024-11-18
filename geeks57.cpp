@@ -1,6 +1,5 @@
 class Solution {
   public:
-
       void rev(vector<int>& arr, int i, int j)
     {
         while(i < j)
