@@ -1,7 +1,6 @@
 class Solution {
   public:
 
-    // Function to rotate an array by d elements in counter-clockwise direction.
       void rev(vector<int>& arr, int i, int j)
     {
         while(i < j)
