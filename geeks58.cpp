@@ -10,3 +10,4 @@ vector<int>ans;
         sort(ans.begin(),ans.end());
         if(ans.size()==0) return {-1};
         return ans;
+};
