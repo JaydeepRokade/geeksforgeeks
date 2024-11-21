@@ -7,7 +7,5 @@
                profit += prices[i]-buy; 
             }
         }
-        
         return profit;
-        
     }
