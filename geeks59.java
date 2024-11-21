@@ -1,6 +1,4 @@
   public int maximumProfit(int prices[]) {
-        // code here
-        
         int buy =0;
         int profit =0;
         for(int i =1;i<prices.length;i++){
