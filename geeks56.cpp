@@ -1,7 +1,5 @@
 class Solution {
     public int getMinDiff(int k, int[] arr) {
-        
-        // code here
         Arrays.sort(arr);
         
         int n = arr.length;
