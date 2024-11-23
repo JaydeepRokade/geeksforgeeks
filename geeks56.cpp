@@ -6,10 +6,8 @@ class Solution {
         for(int i =1;i<n;i++){
             int max = Math.max(arr[n-1]-k,arr[i-1]+k);
             int min = Math.min(arr[0]+k, arr[i]-k);
-            
                 res = Math.min(res,max-min);
         }
-        
         return res;
     }
 }
