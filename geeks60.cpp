@@ -10,7 +10,6 @@ class Solution {
             if(sum<0)
             sum=0;
             ans=max(ans,sum);
-            
         }
         sort(arr.begin(),arr.end());
         if(arr[n-1]<0)
