@@ -2,7 +2,6 @@ class Solution {
   public:
     int maxSubarraySum(vector<int> &arr) {
          int sum=0;
-     
         int n=arr.size();
         int ans=arr[0];
         for(int i=0;i<n;i++)
