@@ -1,4 +1,3 @@
-
         int n = arr.length;
         int maxlr = Integer.MIN_VALUE,maxrl = Integer.MIN_VALUE;
         int curr1 = 1,curr2 = 1;
