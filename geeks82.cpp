@@ -10,7 +10,6 @@
             }
             curr1 *= arr[i];
             maxlr = Math.max(maxlr,curr1);
-            
         }
         //right to left
         for(int i=n-1;i>=0;i--)
