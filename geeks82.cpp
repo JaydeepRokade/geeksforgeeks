@@ -1,7 +1,6 @@
         int n = arr.length;
         int maxlr = Integer.MIN_VALUE,maxrl = Integer.MIN_VALUE;
         int curr1 = 1,curr2 = 1;
-        //left to right
         for(int i=0;i<n;i++)
         {
             if(arr[i] == 0)
