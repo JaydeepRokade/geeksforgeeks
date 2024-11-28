@@ -15,7 +15,6 @@ public:
             if (ans * sign < INT_MIN) return INT_MIN;
             i++;
         }
-
         return ans * sign;
     }
 };
