@@ -9,8 +9,6 @@ public:
             sign = (s[i] == '-') ? -1 : 1;
             i++;
         }
-
-        // Process digits
         while (i < n && s[i]>='0' && s[i]<='9' ) {
             ans = ans * 10 + (s[i] - '0');
 
