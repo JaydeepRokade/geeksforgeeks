@@ -5,8 +5,6 @@ public:
         int i = 0, n = strlen(s);
         int sign = 1; 
         while (i < n && (s[i]==' ' || s[i]=='0')) i++;
-
-        // Handle sign
         if (i < n && (s[i] == '+' || s[i] == '-')) {
             sign = (s[i] == '-') ? -1 : 1;
             i++;
