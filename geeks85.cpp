@@ -3,9 +3,7 @@ public:
     int myAtoi(char* s) {
         long long ans = 0;
         int i = 0, n = strlen(s);
-        int sign = 1; // Default to positive
-
-        // Skip leading spaces
+        int sign = 1; 
         while (i < n && (s[i]==' ' || s[i]=='0')) i++;
 
         // Handle sign
