@@ -19,5 +19,4 @@ public String addBinary(String s1, String s2) {
         }
         sb.delete(0,k);
         return sb.toString();
-        
     }
