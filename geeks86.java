@@ -11,7 +11,6 @@ public String addBinary(String s1, String s2) {
             carry= currSum/2;
             i--;
             j--;
-            
         }
         sb.reverse();
         int  k =0;
