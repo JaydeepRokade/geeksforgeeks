@@ -7,7 +7,6 @@ class Solution {
         {
             mp[elem]++;
         }
-        
         for(auto elem : s2)
         {
             mp[elem]--;
