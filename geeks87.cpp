@@ -1,7 +1,6 @@
 class Solution {
   public:
     bool areAnagrams(string& s1, string& s2) {
-        // Your code here
         if(s1.size()!=s2.size()) return false;
         
         map<int,int>mp;
