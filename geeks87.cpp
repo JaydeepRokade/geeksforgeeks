@@ -15,8 +15,6 @@ class Solution {
                 mp.erase(elem);
             }
         }
-        
         return mp.empty() ? true : false;
-
     }
 };
