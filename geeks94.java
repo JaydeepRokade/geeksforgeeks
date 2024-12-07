@@ -2,7 +2,6 @@ class Solution {
     static int inversionCount(int arr[]) {
         return mergeSort(arr,0,arr.length-1);
     }
-  
     private static int mergeSort(int[] arr,int left,int right){
         int count=0;
         if(left<right){
