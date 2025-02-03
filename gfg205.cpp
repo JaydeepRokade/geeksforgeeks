@@ -5,9 +5,6 @@ public:
     Node* left;
     Node* right;
 
-    Node(int val) {
-        
-    }
 };
 */
 class Solution {
