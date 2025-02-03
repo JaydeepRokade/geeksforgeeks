@@ -1,9 +1,4 @@
-/*
-class Node {
-public:
-    
-};
-*/
+
 class Solution {
   public:
     int height(Node* node) {
