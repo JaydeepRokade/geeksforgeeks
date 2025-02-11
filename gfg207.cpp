@@ -1,6 +1,6 @@
 class Solution {
   public:
-      // Functi
+    
     bool isBSThelper(Node*root,int min,int max)
     {
         if(root==NULL)
