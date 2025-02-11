@@ -1,6 +1,6 @@
 class Solution {
   public:
-      // Function to check whether a Binary Tree is BST or not.
+      // Function to check whether a Binary Tree is BST or n
     bool isBSThelper(Node*root,int min,int max)
     {
         if(root==NULL)
