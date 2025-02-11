@@ -19,7 +19,7 @@ class Solution {
         return isleftok&&isrightok;
     }
     bool isBST(Node* root) {
-        // Your code here
+    
         return isBSThelper(root,INT_MIN,INT_MAX);
     }
 };
