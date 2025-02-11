@@ -12,7 +12,6 @@ class Solution {
         {
             return false;
         }
-        
         bool isleftok=isBSThelper(root->left,min,root->data-1);
         bool isrightok=isBSThelper(root->right,root->data,max);
         
