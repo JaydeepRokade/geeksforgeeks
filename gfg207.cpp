@@ -7,7 +7,6 @@ class Solution {
         {
             return true;
         }
-        
         if(root->data<min || root->data>max)
         {
             return false;
