@@ -1,6 +1,6 @@
 class Solution {
   public:
-    // Return the Kth smallest element in the given BST
+    // Return the Kth smallest
     void inorderTraversal(Node* root,vector<int> &inorder){
         if(!root)
             return;
