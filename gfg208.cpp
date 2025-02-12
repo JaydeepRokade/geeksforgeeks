@@ -1,6 +1,6 @@
 class Solution {
   public:
-    // Return the Kth smallest
+    // Return 
     void inorderTraversal(Node* root,vector<int> &inorder){
         if(!root)
             return;
