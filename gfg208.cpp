@@ -14,5 +14,4 @@ class Solution {
         if(k-1> inorder.size())
             return -1;
         return inorder[k-1];
-        
     }
