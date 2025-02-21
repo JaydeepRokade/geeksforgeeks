@@ -11,7 +11,6 @@ class Solution {
                 
                 char top=st.top();
                 st.pop();
-                
                 if((c==')' && top!='(')||
                    (c=='}' && top!='{')||
                    (c==']' && top!='[')){
