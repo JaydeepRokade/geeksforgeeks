@@ -1,7 +1,9 @@
 class Solution {
   public:
     bool isBalanced(string& s) {
-        // code here
+
+      
+        
         stack<char>st;
         for(int i=0;i<s.size();i++){
             char c=s[i];
