@@ -1,4 +1,5 @@
-  vector<int> nextLargerElement(vector<int>& arr) {
+class solution {
+vector<int> nextLargerElement(vector<int>& arr) {
         // code here
         stack<int>st;
         int n = arr.size();
