@@ -1,6 +1,5 @@
 class solution {
 vector<int> nextLargerElement(vector<int>& arr) {
-        
         stack<int>st;
         int n = arr.size();
         st.push(arr.back());
