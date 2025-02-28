@@ -1,6 +1,7 @@
  int evaluate(vector<string>& arr) {
   
         stack<int>s;
+  
         for(int i=0;i<arr.size();i++){
             int a=0,b=0,result;
             if(!(arr[i]=="*" || arr[i]=="+" || arr[i]=="-" || arr[i]=="/" )) {
