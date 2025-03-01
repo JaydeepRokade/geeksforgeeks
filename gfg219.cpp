@@ -9,8 +9,7 @@ class Solution {
         while(i < n){
           
             if(s[i] == ']'){
-                string temp = "";
-                
+                string temp = "";    
                 while(st.top() != '['){
                     temp += st.top();
                     st.pop();
