@@ -9,7 +9,6 @@ class Solution {
         while(i < n){
           
             if(s[i] == ']'){
-                
                 string temp = "";
                 
                 while(st.top() != '['){
