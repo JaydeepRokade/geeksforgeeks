@@ -17,7 +17,6 @@ class Solution {
                     st.pop();
                 }
                 
-                // remove the first bracket
                 st.pop();
                 
                 // reverse(temp.begin(), temp.end());
