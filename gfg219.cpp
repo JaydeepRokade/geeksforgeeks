@@ -6,7 +6,6 @@ class Solution {
         
         int n = s.size();
         int i = 0;
-        
         while(i < n){
           
             // poping out
