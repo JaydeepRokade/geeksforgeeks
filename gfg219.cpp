@@ -19,9 +19,6 @@ class Solution {
                 
                 st.pop();
                 
-                // reverse(temp.begin(), temp.end());
-                
-                // calculate the count
                 int count = 0;
                 string countStr = "";
                 
