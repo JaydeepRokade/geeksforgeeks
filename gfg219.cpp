@@ -12,7 +12,6 @@ class Solution {
                 
                 string temp = "";
                 
-                // collect the string for repetation
                 while(st.top() != '['){
                     temp += st.top();
                     st.pop();
