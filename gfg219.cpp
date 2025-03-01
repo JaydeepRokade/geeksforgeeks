@@ -8,7 +8,7 @@ class Solution {
         int i = 0;
         
         while(i < n){
-            
+          
             // poping out
             if(s[i] == ']'){
                 
