@@ -1,4 +1,7 @@
-  vector<int> longestSubarray(vector<int>& arr, int x){
+class solution {
+
+public :
+vector<int> longestSubarray(vector<int>& arr, int x){
         deque<int> min_q, max_q;
         int left = 0, ans = 0, i = 0, j = 0;
         
