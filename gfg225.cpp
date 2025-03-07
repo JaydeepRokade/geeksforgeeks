@@ -12,7 +12,6 @@ class Solution {
       ans=max(Solve(s,str,i+1,j,dp),Solve(s,str,i,j+1,dp));
       return dp[i][j]=ans;
   }
-
     int longestPalinSubseq(string &s) {
         string str=s;
         reverse(str.begin(),str.end());
