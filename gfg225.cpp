@@ -1,6 +1,5 @@
 class Solution {
   public:
-
   int Solve(string &s,string &str,int i,int j, vector<vector<int>>&dp){
       if(i>=s.length() || j>=str.length())
       return 0;
