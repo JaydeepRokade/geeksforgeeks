@@ -1,3 +1,4 @@
+class solution : 
 bool ispalindrome(int i,int j,string &s,vector<vector<int>> &dp){
         if(i>=j) return 1;
         if(dp[i][j]!=-1) return dp[i][j];
