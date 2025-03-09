@@ -26,3 +26,4 @@ bool ispalindrome(int i,int j,string &s,vector<vector<int>> &dp){
         
         return s.substr(a,maxlen);
     }
+};
