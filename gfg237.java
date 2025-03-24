@@ -7,7 +7,7 @@ class Solution {
     }
     
     static Map<String, Integer> memo ;
-    //ejj wjj
+    
     static int solve(String s, int i, int j, boolean isTrue){
         if( i>j) return 0;
         
