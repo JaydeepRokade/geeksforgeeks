@@ -1,4 +1,4 @@
-{
+class solutriob{
 pair<int,int> helper(Node* root){
          if(root == NULL) return {0,0};
          
