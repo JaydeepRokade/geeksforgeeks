@@ -1,6 +1,6 @@
 class Solution {
   public:
-    /*You are required to complete 
+    /*You are 
     string multiplyStrings(string& s1, string& s2) {
         // Your code here
         string temp1;
