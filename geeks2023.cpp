@@ -2,7 +2,7 @@ class Solution {
   public:
     
     string multiplyStrings(string& s1, string& s2) {
-        // Your code here
+        
         string temp1;
         string temp2;
         bool isIncludeNeg = false;
