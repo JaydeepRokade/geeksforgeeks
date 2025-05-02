@@ -12,4 +12,3 @@
             else if(arr[mid]>arr[mid-1] && arr[mid]<arr[mid+1]) lo=mid+1;
             else hi = mid - 1;
         }
-    
