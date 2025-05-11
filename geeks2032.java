@@ -1,4 +1,5 @@
-  public int kthLargest(int[] arr, int k) {
+ class solution {
+   public int kthLargest(int[] arr, int k) {
         int n = arr.length;
         List<Integer> finalList = new ArrayList<>();
         int[] prefix = new int[n];
