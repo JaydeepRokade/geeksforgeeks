@@ -3,7 +3,7 @@ private:
     vector<int> meetCnt;
     priority_queue<int, vector<int>, greater<int>> availableRooms;
     priority_queue<pair<int, int>, vector<pair<int, int>>, greater<pair<int, int>>> busyRooms;
-//jsaj js sii sci i;
+//jsaj js si
     void initializeRooms(int n) 
     {
         meetCnt.resize(n, 0);
