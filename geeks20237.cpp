@@ -6,7 +6,7 @@ class Solution {
         // Initialize the range to be a very 
         vector<int> range = {0, 100000};
 
-        // Variable to keep track of the current maximum element among the k lists
+      
         int max_ele = INT_MIN;
 
         
