@@ -1,7 +1,7 @@
 class Solution {
   public:
     vector<int> findSmallestRange(vector<vector<int>>& arr) {
-        int k = arr.size();  // Number of lists
+        int k = arr.size(); 
 
         
         vector<int> range = {0, 100000};
