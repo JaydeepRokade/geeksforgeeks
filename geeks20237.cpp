@@ -9,8 +9,7 @@ class Solution {
         // Variable to keep track of the current maximum element among the k lists
         int max_ele = INT_MIN;
 
-        // Min-heap (priority queue) to get the smallest element at the top
-        // Each entry in the heap is a vector of the form {value, list_index, index_in_list}
+        
         priority_queue<vector<int>, vector<vector<int>>, greater<vector<int>>> pq;
 
         // Push the first element from each list into the min-heap and update max_ele
