@@ -12,7 +12,7 @@ class Solution {
         
         priority_queue<vector<int>, vector<vector<int>>, greater<vector<int>>> pq;
 
-        // Push the first element from each list into the min-heap and update max_ele
+        
         for (int i = 0; i < k; i++) {
             pq.push({arr[i][0], i, 0});
             max_ele = max(max_ele, arr[i][0]);
