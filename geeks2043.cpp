@@ -18,7 +18,6 @@ class Solution {
         if(root -> data > key) succ(root -> left , key , ans) ;
         else succ(root -> right , key , ans) ;
     }
-    //jhsbhkuh kaa
     vector<Node*> findPreSuc(Node* root, int key) {
         Node*temp = new Node(-1) ;
         vector<Node*>ans = {new Node(-1) , new Node(INT_MAX)} ;
