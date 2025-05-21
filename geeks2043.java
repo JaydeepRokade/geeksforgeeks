@@ -6,6 +6,7 @@ class Solution {
         }
         return count;
     }
+    //mcjc kk kxk kxkk kxk
     public int kthSmallest(int m, int n, int k) {
         int low = 1, high = m * n;
         while (low <= high) {
