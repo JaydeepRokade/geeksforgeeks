@@ -1,3 +1,4 @@
+class solution{
 public:
     string s_add(string a, string b) {
         string ans = "";
