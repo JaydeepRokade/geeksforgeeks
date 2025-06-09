@@ -1,4 +1,4 @@
-lass Solution {
+class Solution {
   public:
   vector<int>arr;
   vector<int>leaf;
