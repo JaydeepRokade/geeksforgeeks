@@ -10,7 +10,7 @@ public:
             int totalHours = 0;
 
             for (int i = 0; i < n; i++) {
-                // Correct way to compute hours to eat ea
+                // Correct way to compute hours to eea
                 totalHours += (arr[i] + mid - 1) / mid; // equivalent to ceil(arr[i] / mid)
             }
 
