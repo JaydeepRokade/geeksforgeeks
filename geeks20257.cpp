@@ -18,7 +18,7 @@ public:
                 result = mid;          /
                 right = mid - 1;
             } else {
-                left = mid + 1;        // too slow, need to eat faster
+                left = mid + 1;        
             }
         }
 
