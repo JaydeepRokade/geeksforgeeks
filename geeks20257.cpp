@@ -15,7 +15,7 @@ public:
             }
 
             if (totalHours <= k) {
-                result = mid;          // possible answer, but try to minimize
+                result = mid;          /
                 right = mid - 1;
             } else {
                 left = mid + 1;        // too slow, need to eat faster
