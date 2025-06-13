@@ -11,7 +11,7 @@ public:
 
             for (int i = 0; i < n; i++) {
                 // Correct way to compute hours to eea
-                totalHours += (arr[i] + mid - 1) / mid; // equivalent to ceil(arr[i] / mid)
+                totalHours += (arr[i] + mid - 1) / mid; // equivalent to ceil(arr[i]
             }
 
             if (totalHours <= k) {
