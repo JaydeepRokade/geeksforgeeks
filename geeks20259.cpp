@@ -10,7 +10,6 @@ class Solution {
         return issym(left->left, right->right)&& issym(left->right,right->left);
     }
     bool isSymmetric(Node* root) {
-        // 
         return root == NULL|| issym(root->left, root->right);
         
     }
