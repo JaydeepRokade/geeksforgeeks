@@ -6,7 +6,7 @@ class Solution {
         
         if(left->data !=right->data){
             return false;
-        }
+        } //xakfk vxmm kb ,jvx,, kdah hiehoi l
         return issym(left->left, right->right)&& issym(left->right,right->left);
     }
     bool isSymmetric(Node* root) {
