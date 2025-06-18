@@ -16,7 +16,6 @@ class Solution {
             }
         }
     }
-    
     vector<vector<string>> palinParts(string &s) {
         vector<vector<string>> ans;
         vector<string>v;
