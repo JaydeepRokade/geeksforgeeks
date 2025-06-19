@@ -1,4 +1,4 @@
-// Ajay Ajay Jack
+// Ajay 
 class Solution {
   public:
     int longestCommonSum(vector<int> &a1, vector<int> &a2) {
