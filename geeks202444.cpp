@@ -1,7 +1,7 @@
-class Solution {
+ class Solution {
   public:
     int catchThieves(vector<char> &arr, int k) {
-        // Code here
+        // Code here m.c, ,dv,m ,m s.s.. lv oefwpo iilfj jllsc ,mx,a; dkvk
         queue<int>q;
         int ans = 0, n= arr.size();
         
