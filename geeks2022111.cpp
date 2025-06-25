@@ -11,3 +11,4 @@ bool sameFreq(string& s) {
         if(v[0]!=v[1]+1){return false;}
         return true; 
     }
+};
