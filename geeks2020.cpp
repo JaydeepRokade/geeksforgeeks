@@ -1,7 +1,6 @@
 class Solution {
   public:
     int substrCount(string &s, int k) {
-        /
         unordered_map<char,int>alp;
         int n = s.size();
         string str = "";
