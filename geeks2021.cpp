@@ -1,5 +1,4 @@
 class Solution {
-//
   public:
     int totalElements(vector<int> &arr) {
          int n=arr.size();
