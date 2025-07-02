@@ -1,5 +1,5 @@
 class Solution {
-//Ajay what away jam j
+//Ajay what a
   public:
     int totalElements(vector<int> &arr) {
          int n=arr.size();
