@@ -1,7 +1,7 @@
 class Solution {
   public:
     int cntCoprime(vector<int> &arr) {
-        // code here system
+        // code h
         int n = arr.size(), m = 0;
         for(int i = 0; i < n; i++) m = max(m, arr[i]);
         vector<int> freq(m + 1, 0), dp(m + 1, 0);
