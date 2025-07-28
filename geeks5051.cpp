@@ -12,8 +12,8 @@ class Solution {
             int colSum = 0;
             for(int j = 0; j < n; j++){
                 rowSum += mat[i][j];
-                colSum += mat[j][i];
-            }
+
+              
             row[i] = rowSum;
             maxSum = max({maxSum, rowSum, colSum});
         }
