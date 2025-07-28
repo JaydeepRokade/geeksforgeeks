@@ -10,8 +10,7 @@ class Solution {
             
             int rowSum = 0;
             int colSum = 0;
-            for(int j = 0; j < n; j++){
-                r
+           
             row[i] = rowSum;
             maxSum = max({maxSum, rowSum, colSum});
         }
