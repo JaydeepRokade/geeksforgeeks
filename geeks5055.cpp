@@ -1,6 +1,6 @@
 class Solution {
   public:
-//jaj  sajvj jcj jdj jdj jd jdj 
+//jaj  sajvj jcj jd
     bool isPalinSent(string &s) {
         int n=s.size();
         int i=0,j=n-1;
