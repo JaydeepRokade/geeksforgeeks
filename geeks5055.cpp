@@ -1,7 +1,7 @@
 class Solution {
   public:
     bool isPalinSent(string &s) {
-        // code
+        //
         int n=s.size();
         int i=0,j=n-1;
         
