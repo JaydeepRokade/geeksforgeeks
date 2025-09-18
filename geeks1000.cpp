@@ -1,6 +1,6 @@
 class Solution {
   public:
-    //Rreturn 
+    //Return after 
     vector<int> nextGreater(vector<int> &arr) {
         stack<int> st;
         vector<int> temp=arr;
