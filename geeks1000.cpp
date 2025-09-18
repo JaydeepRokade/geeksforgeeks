@@ -1,6 +1,6 @@
 class Solution {
   public:
-    //Return after long period of time 
+    //Return after long period of time ...
     vector<int> nextGreater(vector<int> &arr) {
         stack<int> st;
         vector<int> temp=arr;
